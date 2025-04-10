@@ -18,6 +18,13 @@ public class HomeController : Controller
         return View();
     }
 
+    {
+    [HttpPost]
+    public IActionResult Ind()
+    {
+        return View();
+    }
+
     [HttpGet]
     public IActionResult Privacy()
     {
