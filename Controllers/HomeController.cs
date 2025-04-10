@@ -18,8 +18,8 @@ public class HomeController : Controller
         return View();
     }
 
-    {
-    [HttpPost]
+    
+    [HttpGet]
     public IActionResult Ind()
     {
         return View();
